@@ -196,6 +196,7 @@
     <Compile Include="Controllers\PictureController.cs" />
     <Compile Include="Controllers\PicturesController.cs" />
     <Compile Include="Controllers\TopicController.cs" />
+    <Compile Include="Controllers\WordController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -281,12 +282,21 @@
     <Content Include="Views\Color\Create.cshtml" />
     <Content Include="Views\Color\Edit.cshtml" />
     <Content Include="Views\Color\Delete.cshtml" />
+    <Content Include="Views\Topic\Index.cshtml" />
+    <Content Include="Views\Topic\Details.cshtml" />
+    <Content Include="Views\Topic\Create.cshtml" />
+    <Content Include="Views\Topic\Edit.cshtml" />
+    <Content Include="Views\Topic\Delete.cshtml" />
+    <Content Include="Views\Word\Index.cshtml" />
+    <Content Include="Views\Word\Details.cshtml" />
+    <Content Include="Views\Word\Create.cshtml" />
+    <Content Include="Views\Word\Edit.cshtml" />
+    <Content Include="Views\Word\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Audio\" />
     <Folder Include="Image\" />
-    <Folder Include="Views\Topic\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
